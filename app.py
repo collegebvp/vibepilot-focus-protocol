@@ -226,7 +226,7 @@ if st.button("🚀 ACTIVATE FOCUS PROTOCOL", use_container_width=True, type="pri
         with st.spinner("VibeEngine generating custom psychological focus contract..."):
             try:
                 # Ask Gemini for motivation and roadmap
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-3.5-flash')
                 prompt = f"""
                 You are VibePilot, a high-performance productivity coach.
                 The user has exactly {minutes} minutes to complete this task: '{task_name}'.
